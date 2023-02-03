@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# emp-management-fe
-Employee Salary Management FE
-=======
-# EmpManagementFe
+
+# Employee Salary Management FE
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
