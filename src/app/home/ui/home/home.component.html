@@ -1,0 +1,46 @@
+
+<div class="wrapper">
+    <mat-sidenav-container>
+        <mat-sidenav mode="side" opened>
+            <div class="logo">
+                <img src="https://cdn.dribbble.com/users/5634248/screenshots/12596106/f_4x.png">
+            </div>
+            <div class="username">
+                Dummy Username
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <span>Function 1</span>
+                    </li>
+                    <li>
+                        <span>Function 2</span>
+                    </li>
+                    <li>
+                        <span>Function 3</span>
+                    </li>
+                    <li>
+                        <span>Function 4</span>
+                    </li>
+                    <li>
+                        <span>Function 5</span>
+                    </li>
+                </ul>
+            </div>
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <div class="filterbox-wrapper">
+                <div class="header">
+                    Employees
+                </div>
+                <div >
+                    <button class="add-employee-button" mat-raised-button (click)="openDialog()">Add Employee</button>
+                </div>
+            </div>
+            
+            <app-employee-list class="employee-list"></app-employee-list>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>
+

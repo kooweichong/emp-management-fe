@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Add Employee</h1>
+<div class="dialog-instruction">
+    <h3 mat-dialog-actions>Please select a csv file to upload.</h3>
+</div>
+<div class="file-detail">
+    <p>Selected file: {{fileName}} </p>
+    <p>Status: {{status}}</p>
+</div>
+<div class="button-wrapper">
+    <button mat-raised-button (click)="csvInput.click()">Select File</button>
+    <input #csvInput hidden="true" type="file" onclick="this.value=null" (change)="csvInputChange($event)" accept=".csv"/>
+
+    <button mat-raised-button (click)="submitFile()">Submit</button>
+</div>
