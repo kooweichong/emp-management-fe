@@ -8,7 +8,7 @@ import {catchError, Observable, of} from 'rxjs';
 export class ApiService {
 
   private uploadAPI = "http://localhost:8080/users/upload";
-  private baseURL = "http://localhost:8080/users?minSalary=0&maxSalary=4000&offset=0&limit=100&sort=%2Bid"
+  private baseURL = "http://localhost:8080/users?minSalary=0&maxSalary=4000&offset=0&limit=1000&sort=%2Bid"
 
   constructor(private http:HttpClient) { }
 
